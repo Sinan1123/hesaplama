@@ -63,7 +63,6 @@ namespace hesaplama
                         }
                         break;
                     default:
-                        Console.WriteLine("Geçersiz seçim! 1-4 arasında bir sayı giriniz.");
                         isAcceptable = false;
                         break;
                 }
