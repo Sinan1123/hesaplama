@@ -62,9 +62,6 @@ namespace hesaplama
                             result = Divide(number1, number2);
                         }
                         break;
-                    default:
-                        isAcceptable = false;
-                        break;
                 }
                 if (isAcceptable == true)
                 {
