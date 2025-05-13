@@ -16,13 +16,13 @@
 
                 if (choose == 0)
                 {
-                    Console.WriteLine("Çıkılıyor.");
+                    Console.Write("Çıkılıyor.");
                     Thread.Sleep(500);
-                    Console.WriteLine("\rÇıkılıyor..");
+                    Console.Write("\rÇıkılıyor..");
                     Thread.Sleep(500);
-                    Console.WriteLine("\rÇıkılıyor...");
+                    Console.Write("\rÇıkılıyor...");
                     Thread.Sleep(500);
-                    Console.WriteLine("\rProgramdan çıkıldı...\n");
+                    Console.Write("\rProgramdan çıkıldı...\n");
                 }
                 Console.Write("Birinci sayıyı giriniz: ");
                 int number1 = Convert.ToInt32(Console.ReadLine());
