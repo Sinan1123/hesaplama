@@ -12,7 +12,7 @@ namespace hesaplama
 
                 if (!int.TryParse(Console.ReadLine(), out choose))
                 {
-                    Console.WriteLine("Gerçersiz bir işlem yaptınız");
+                    Console.WriteLine("\nGerçersiz bir işlem yaptınız");
                     continue;
                 }
 
